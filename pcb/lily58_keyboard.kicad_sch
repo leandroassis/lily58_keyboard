@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "バングー Keyboard Schematic")
+    (date "2024-01-20")
+  )
+
   (lib_symbols
     (symbol "Display_Graphic:OLED-128O064D" (in_bom yes) (on_board yes)
       (property "Reference" "DS" (at -10.16 38.1 0)
@@ -490,13 +495,17 @@
     (property "Sheetfile" "keys.kicad_sch" (at 28.575 159.3346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "rows" input (at 28.575 154.305 180)
+    (pin "rows" input (at 28.575 153.67 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid af42f858-4269-464f-aabd-d10d64c5fcd8)
     )
     (pin "columns" input (at 28.575 151.765 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 23df5507-662f-48f0-90b6-699d2f815e36)
+    )
+    (pin "knob_read" output (at 28.575 156.21 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 56b72503-44e3-48c2-842b-cb4c3bee66a8)
     )
     (instances
       (project "lily58_keyboard"
