@@ -2259,35 +2259,6 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 245.11 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 95d4c0ae-a8c3-450c-8997-a917f38b72e0)
-    (property "Reference" "SW1" (at 245.11 99.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BOOT" (at 245.11 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 245.11 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 245.11 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 9af7adfb-f742-4801-842d-7834d98c34ec))
-    (pin "1" (uuid 27444fe4-ba0e-4627-a42c-88eb9a554925))
-    (instances
-      (project "lily58_keyboard"
-        (path "/e186517a-3325-4e77-9fb6-41adae966a58"
-          (reference "SW1") (unit 1)
-        )
-        (path "/e186517a-3325-4e77-9fb6-41adae966a58/f4872a4f-f030-46a7-afd5-727446dac0a1"
-          (reference "SW31") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Switch:SW_Push") (at 119.38 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a432802-7681-44b3-a351-a091b256fbb6)
@@ -2657,35 +2628,6 @@
         )
         (path "/e186517a-3325-4e77-9fb6-41adae966a58/f4872a4f-f030-46a7-afd5-727446dac0a1"
           (reference "D24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 245.11 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c6ffabed-2e26-4402-b842-d86e44c996de)
-    (property "Reference" "SW1" (at 245.11 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "RESET" (at 245.11 90.17 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 245.11 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 245.11 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 6a8260e4-8db5-4e56-b3d0-345ecba7089b))
-    (pin "1" (uuid 9a25667a-84c2-461a-b65e-4ae815a27a20))
-    (instances
-      (project "lily58_keyboard"
-        (path "/e186517a-3325-4e77-9fb6-41adae966a58"
-          (reference "SW1") (unit 1)
-        )
-        (path "/e186517a-3325-4e77-9fb6-41adae966a58/f4872a4f-f030-46a7-afd5-727446dac0a1"
-          (reference "SW30") (unit 1)
         )
       )
     )
